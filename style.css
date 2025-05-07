@@ -1,0 +1,60 @@
+/* Reset some default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Element Selector for all h1 headings */
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* ID Selector for Header */
+#main-header {
+    background-color: #a34caf;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 5px solid #888e38;
+}
+
+/* Class Selector for Content */
+.content {
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 800px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Class Selector for Paragraph */
+.intro-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Class Selector for Image */
+.styled-image {
+    width: 50%;
+    height: auto;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Class Selector for Footer */
+.footer {
+    background-color: #333333;
+    color: #eee;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    margin-top: 40px;
+}
